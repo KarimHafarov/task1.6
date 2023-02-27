@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/regist.css">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <div class="header" >
+        <div style="text-align: left;" class="logo_text">
+            <a href="/index.html"><img style="width: 50px;" src="/Img/—Pngtree—an open yellow book_4553607.png" alt=""></a>
+            <h1>Мій особистий блог</h1>
+            <h3>Карім Гафаров</h3>
+        </div>
+        <div class="auth">
+            <a href="/login.html">Вхід</a>
+            <a href="/regist.html">Реєстрація</a>
+        </div>
+    </div>
+    <main>
+        <div class="reg">
+        <h1 style="background-color:#42a5f5;" class="form-titel">Реєстрація користувача</h1>
+        <form action="/Users/mac/Desktop/BD/develop.html" method="POST">
+            <p>
+                <label>Прізвище</label>
+                <input type="text" name="last_name">
+            </p>
+            <p>
+                <label>Імя</label>
+                <input type="text" name="first_name">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Група</label>
+                <select name="category">
+                    <option>Номер</option>
+                    <option>201</option>
+                    <option>202</option>
+                    <option>203</option>
+                    <option>204</option>
+                    <option>205</option>
+                    <option>Інше</option>
+                </select>
+            </p>
+            <p>
+                <label>Пароль</label>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label>Підтвердіть пароль</label>
+                <input type="password" name="password_confirm">
+            </p>
+            <p>
+                <a href="/develop.html" style="margin-left: 50%"  class="button" >
+                    Зареєструватись
+                </button></a>
+            </p>
+            </form>
+        </div>
+    </main>
+  
+</body>
+</html>

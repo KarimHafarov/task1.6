@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #42a5f5;
+    border-bottom: 3px solid #e53935;
+}
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+body{
+    height: 950px;
+    background-color:aliceblue;
+}
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logo_text{
+    width: 750px;
+    height: auto;
+}
+.logo_text img{
+    position: absolute;
+}
+
+.logo_text h1 ,h3{
+    margin: 0 70px;
+}
+

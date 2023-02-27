@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #42a5f5;
+    border-bottom: 3px solid #e53935;
+}
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+.auth {
+
+}
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(124, 121, 121);
+}
+.cercle{
+    top: 100px;
+    position: absolute;
+    width: 534px;
+    height: 534px;
+}
+input{
+    height: 45px;
+    width: 100%;
+    line-height: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 25px;
+    color: rgb(0, 0, 0);
+    
+}
+.button{
+    background: rgb(80, 205, 255);
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 22px;
+}
+.register-form-container{
+    max-width: 515px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+.form-titel{
+    font-size: 30px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+body{
+    height: 950px;
+}
+.logo_text{
+    width: 750px;
+    height: auto;
+}
+.logo_text img{
+    position: absolute;
+}
+
+.logo_text h1 ,h3{
+    margin: 0 70px;
+}
+
